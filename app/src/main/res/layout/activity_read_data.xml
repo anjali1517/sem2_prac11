@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityReadData">
+
+    <TextView
+        android:id="@+id/txtRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Data"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtRead"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/btnReadData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Data"
+        android:layout_below="@+id/edtUser"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txtFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnReadData"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txtLast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtFirst"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

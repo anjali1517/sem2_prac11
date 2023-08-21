@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityUpdate">
+
+    <TextView
+        android:id="@+id/txtUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Data"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtUpdateUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUpdate"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="UserName"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edtUpdateFirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtUpdateUsername"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="FirstName"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edtUpdateLastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtUpdateFirstname"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Lastname"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textSize="22sp"
+        android:layout_below="@+id/edtUpdateLastname"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

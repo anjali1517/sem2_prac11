@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtFirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtReg"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="FirstName"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edtLastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtFirstname"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="LastName"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtLastname"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Username"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="22sp"
+        android:layout_below="@+id/Username"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Data"
+        android:textSize="22sp"
+        android:layout_below="@+id/btnSubmit"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Data"
+        android:textSize="22sp"
+        android:layout_below="@+id/btnRead"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Data"
+        android:textSize="22sp"
+        android:layout_below="@+id/btnUpdate"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
